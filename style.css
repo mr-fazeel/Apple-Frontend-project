@@ -1,0 +1,354 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: border-box;
+    font-family: arial;
+    text-decoration: none;
+}
+
+.navbar {
+    height: 40px;
+    width: 100%;
+    background-color: rgba(245, 245, 247, .8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.75rem;
+    position: fixed;
+    top: 0;
+}
+
+.navbar a {
+    margin-left: 39px;
+    color: black;
+}
+
+.disc-text {
+    height: 75px;
+    width: 100%;
+    background-color: #ffffff;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 20px;
+    font-size: 0.89rem;
+}
+
+.disc-text p a {
+    color: rgb(32, 132, 178);
+}
+
+.hero-image-1 {
+    width: 100%;
+    /* width of the div as a percentage */
+    height: 700px;
+    /* fixed height of the div */
+    background-image: url('/Image/hero_macbook.jpg');
+    /* path to your image */
+    background-size: cover;
+    /* ensures the image covers the div */
+    background-position: center;
+    /* centers the image within the div */
+    background-repeat: no-repeat;
+    /* prevents the image from repeating */
+    margin-bottom: 20px;
+    /* adds space below the div */
+}
+
+.hero1-text {
+    height: 260px;
+    width: 100%;
+    background-color: (245, 245, 247, .8);
+    text-decoration: none;
+    color: black;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.hero1-text h1 {
+    /* padding-top: 58px; */
+    width: 100%;
+    font-size: 54px;
+}
+
+.hero1-text p {
+    /* padding-top: 10px; */
+    width: 100%;
+    font-size: 27px;
+    margin-top: 5px;
+}
+
+.butt {
+    height: 60px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.hero1-button {
+    background-color: #0071E1;
+    height: 32px;
+    width: 28%;
+    color: #ffffff;
+    border-radius: 50px;
+    padding-top: 8px;
+    margin-right: 10px;
+    border: 2px solid #0071E1;
+}
+
+.hero1-button-buy {
+    background-color: #fff;
+    height: 32px;
+    width: 13%;
+    border-radius: 50px;
+    padding-top: 8px;
+    border: 2px solid #0071E1;
+    color: #0071E1;
+}
+
+.hero1-button-buy:hover {
+    background-color: #0071E1;
+    color: #fff;
+    cursor: pointer;
+}
+
+.hero1-button:hover {
+    cursor: pointer;
+    background-color: #1b79dd;
+    border: 2px solid #1b79dd;
+    ;
+}
+
+.hero-image-2 {
+    width: 100%;
+    height: 700px;
+    background-image: url('/Image/hero_iphone.jpg');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 15px;
+}
+
+.hero2-text {
+    height: 260px;
+    width: 100%;
+    background-color: (245, 245, 247, .8);
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.hero2-text h1 {
+    /* padding-top: 58px; */
+    width: 100%;
+    font-size: 54px;
+}
+
+.hero2-text p {
+    /* padding-top: 10px; */
+    width: 100%;
+    font-size: 27px;
+    margin-top: 5px;
+}
+
+.butt2 {
+    height: 60px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.hero2-button {
+    background-color: #0071E1;
+    height: 32px;
+    width: 28%;
+    color: #ffffff;
+    border-radius: 50px;
+    padding-top: 8px;
+    margin-right: 10px;
+    border: 2px solid #0071E1;
+}
+
+.hero2-button-buy {
+    height: 32px;
+    width: 13%;
+    border-radius: 50px;
+    padding-top: 8px;
+    border: 2px solid #0071E1;
+    color: #0071E1;
+}
+
+.hero2-button-buy:hover {
+    background-color: #0071E1;
+    color: #fff;
+    cursor: pointer;
+}
+
+.hero2-button:hover {
+    cursor: pointer;
+    background-color: #1b79dd;
+    border: 2px solid #1b79dd;
+    ;
+}
+
+.hero-image-3 {
+    width: 100%;
+    height: 700px;
+    background-image: url('/Image/hero_last.jpg');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 15px;
+}
+
+.hero3-text {
+    height: 260px;
+    width: 100%;
+    background-color: (245, 245, 247, .8);
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.hero3-text h1 {
+    /* padding-top: 58px; */
+    width: 100%;
+    font-size: 54px;
+}
+
+.hero3-text p {
+    /* padding-top: 10px; */
+    width: 100%;
+    font-size: 27px;
+    margin-top: 5px;
+}
+
+.butt3 {
+    height: 60px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.hero3-button {
+    background-color: #0071E1;
+    height: 32px;
+    width: 28%;
+    color: #ffffff;
+    border-radius: 50px;
+    padding-top: 8px;
+    margin-right: 10px;
+    border: 2px solid #0071E1;
+}
+
+.hero3-button-buy {
+    height: 32px;
+    width: 13%;
+    border-radius: 50px;
+    padding-top: 8px;
+    border: 2px solid #0071E1;
+    color: #0071E1;
+}
+
+.hero3-button-buy:hover {
+    background-color: #0071E1;
+    color: #fff;
+    cursor: pointer;
+}
+
+.hero3-button:hover {
+    cursor: pointer;
+    background-color: #1b79dd;
+    border: 2px solid #1b79dd;
+    ;
+}
+
+.main {
+    height: 1850px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.box {
+    height: 600px;
+    width: 100%;
+    background-color: bisque;
+    border: 2px solid green;
+}
+
+.box-anchor {
+    height: 600px;
+    width: 48%;
+    text-decoration: none;
+}
+
+.box1 {
+
+    background-image: url('/Image/box1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.box2 {
+    background-image: url('/Image/box2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.box3 {
+    background-image: url('/Image/box3.png');
+    background-size: 68% 41%; /* Set both width and height as percentages */
+    background-repeat: no-repeat;
+    background-position: center 23%;
+    background-color: black;
+    /* height: 100%; */
+}
+
+
+.box4 {
+    background-image: url('/Image/box4.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.box5 {
+    background-image: url('/Image/box5.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.box6 {
+    background-image: url('/Image/box6.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.tv {
+    height: 600px;
+    width: 100%;
+    background-image: url(/Image/wow.jpg);
+    background-size: cover;
+    background-position: center;
+}
